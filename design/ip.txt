@@ -1,0 +1,8 @@
+/////////////////////////////////////////////
+
+In Progress (v1.0):
+- Starting with Shell to give me an entry point cause I think this will become how I want the back end of the OS to look like and how the front will look like all in the same way...
+
+Done | Main:
+
+/////////////////////////////////////////////

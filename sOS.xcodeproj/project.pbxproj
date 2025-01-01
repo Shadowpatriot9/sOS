@@ -24,8 +24,31 @@
 
 /* Begin PBXFileReference section */
 		561F1A922D25C9F000E5B359 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		56E3D56B2D25C850005A88DA /* sOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = sOS; path = "/Users/s9mm1/Desktop/!_Git_Public/sOS/build/Debug/sOS"; sourceTree = "<absolute>"; };
+		56702B792D25F3E900C84639 /* sOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		56702B7B2D25F40400C84639 /* ip.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ip.txt; sourceTree = "<group>"; };
+		56702B7D2D25F40400C84639 /* main.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		56702B802D25F42400C84639 /* Exceptions for "shell" folder in "sOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				shell.cpp,
+			);
+			target = 56E3D56A2D25C850005A88DA /* sOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		56702B7F2D25F42000C84639 /* shell */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				56702B802D25F42400C84639 /* Exceptions for "shell" folder in "sOS" target */,
+			);
+			path = shell;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		56E3D5682D25C850005A88DA /* Frameworks */ = {
@@ -41,15 +64,27 @@
 		561F1A932D25C9F000E5B359 /* bin */ = {
 			isa = PBXGroup;
 			children = (
+				56702B7F2D25F42000C84639 /* shell */,
 				561F1A922D25C9F000E5B359 /* main.cpp */,
 			);
 			path = bin;
 			sourceTree = "<group>";
 		};
+		56702B7A2D25F3F400C84639 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				56702B7B2D25F40400C84639 /* ip.txt */,
+				56702B7D2D25F40400C84639 /* main.txt */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
 		56E3D5622D25C850005A88DA = {
 			isa = PBXGroup;
 			children = (
+				56702B7A2D25F3F400C84639 /* design */,
 				561F1A932D25C9F000E5B359 /* bin */,
+				56702B792D25F3E900C84639 /* sOS */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,11 +103,14 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				56702B7F2D25F42000C84639 /* shell */,
+			);
 			name = sOS;
 			packageProductDependencies = (
 			);
 			productName = sOS;
-			productReference = 56E3D56B2D25C850005A88DA /* sOS */;
+			productReference = 56702B792D25F3E900C84639 /* sOS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
