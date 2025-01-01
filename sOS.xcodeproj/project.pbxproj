@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		561F1A942D25C9F000E5B359 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 561F1A922D25C9F000E5B359 /* main.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		56E3D5692D25C850005A88DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,16 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		56E3D56B2D25C850005A88DA /* sOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		561F1A922D25C9F000E5B359 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		56E3D56B2D25C850005A88DA /* sOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = sOS; path = "/Users/s9mm1/Desktop/!_Git_Public/sOS/build/Debug/sOS"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		56E3D56D2D25C850005A88DA /* sOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = sOS;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		56E3D5682D25C850005A88DA /* Frameworks */ = {
@@ -41,20 +38,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		561F1A932D25C9F000E5B359 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				561F1A922D25C9F000E5B359 /* main.cpp */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
 		56E3D5622D25C850005A88DA = {
 			isa = PBXGroup;
 			children = (
-				56E3D56D2D25C850005A88DA /* sOS */,
-				56E3D56C2D25C850005A88DA /* Products */,
+				561F1A932D25C9F000E5B359 /* bin */,
 			);
-			sourceTree = "<group>";
-		};
-		56E3D56C2D25C850005A88DA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				56E3D56B2D25C850005A88DA /* sOS */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +67,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				56E3D56D2D25C850005A88DA /* sOS */,
 			);
 			name = sOS;
 			packageProductDependencies = (
@@ -106,7 +99,7 @@
 			mainGroup = 56E3D5622D25C850005A88DA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 56E3D56C2D25C850005A88DA /* Products */;
+			productRefGroup = 56E3D5622D25C850005A88DA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -120,6 +113,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561F1A942D25C9F000E5B359 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
